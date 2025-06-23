@@ -1,4 +1,4 @@
-package Desafios.Classes;
+package DesafiosCodeBat.Classes;
 
 public class StringDesafio {
     public static String stringDentro(String out, String in) {
