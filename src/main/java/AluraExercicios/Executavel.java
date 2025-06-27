@@ -1,11 +1,11 @@
-package AluraExercicios.Arrays;
+package AluraExercicios;
 
-import AluraExercicios.Arrays.Classes.*;
+import AluraExercicios.Classes.*;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class Executavel {
     public static void main(String[] args) {
@@ -21,6 +21,7 @@ public class Executavel {
         } else {
             System.out.println("O objeto nao é um cachorro");
         }
+
 //        Produtos produto1 = new Produtos("Toddy",9.99);
 //        Produtos produto2 = new Produtos("Chocolate",5.99);
 //        Produtos produto3 = new Produtos("Lays",14.99);
@@ -43,5 +44,32 @@ public class Executavel {
         nomes.add("Cecilia");
         Collections.sort(nomes);
         System.out.println(nomes);
+
+        List<Integer> nums = new ArrayList<>();
+        nums.add(1);
+        nums.add(7);
+        nums.add(5);
+        nums.add(12);
+        nums.add(10);
+
+        Collections.sort(nums);
+        for (int i : nums){
+            System.out.println("List nums: " + i);
+        }
+
+        List<Titulo> titulos = new ArrayList<>();
+
+        titulos.add(new Titulo("Abcv"));
+        titulos.add(new Titulo("Xbc"));
+        titulos.add(new Titulo("Bbc"));
+        titulos.add(new Titulo("Ybc"));
+        titulos.add(new Titulo("Abc"));
+
+        Collections.sort(titulos);
+        for (Titulo i : titulos){
+            System.out.println(i.getNome());
+        }
+
+
     }
 }

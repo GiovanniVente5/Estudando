@@ -1,4 +1,4 @@
-package AluraExercicios.Arrays.Classes;
+package AluraExercicios.Classes;
 
 public interface Forma {
     public double calcularArea();
