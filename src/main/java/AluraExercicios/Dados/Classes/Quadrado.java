@@ -1,4 +1,4 @@
-package AluraExercicios.Classes;
+package AluraExercicios.Dados.Classes;
 
 public class Quadrado implements Forma{
     double lados;

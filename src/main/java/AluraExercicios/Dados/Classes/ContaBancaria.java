@@ -1,4 +1,4 @@
-package AluraExercicios.Classes;
+package AluraExercicios.Dados.Classes;
 
 public class ContaBancaria {
     String dono;

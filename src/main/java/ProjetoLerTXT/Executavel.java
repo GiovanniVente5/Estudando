@@ -5,8 +5,7 @@ import ProjetoLerTXT.classes.Ler;
 
 import javax.swing.*;
 import java.io.IOException;
-import java.util.*;
-import java.util.stream.Stream;
+import java.util.HashMap;
 
 public class Executavel {
     public static void main(String[] args) throws IOException {

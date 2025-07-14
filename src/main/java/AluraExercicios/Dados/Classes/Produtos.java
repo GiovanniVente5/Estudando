@@ -1,4 +1,4 @@
-package AluraExercicios.Classes;
+package AluraExercicios.Dados.Classes;
 
 public class Produtos {
     String nome;

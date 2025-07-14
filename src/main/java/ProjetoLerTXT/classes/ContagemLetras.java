@@ -1,17 +1,12 @@
 package ProjetoLerTXT.classes;
 
-import java.awt.*;
-import java.sql.Array;
 import java.util.*;
-import java.util.concurrent.CopyOnWriteArraySet;
-import java.util.stream.Stream;
 
 public class ContagemLetras {
     public static String contagem(String str) {
         StringBuilder sb = new StringBuilder();
         String[] letras = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
         HashMap<String,Integer> map = new HashMap<>();
-
         for (String i : letras){
             map.put(i,0);
         }

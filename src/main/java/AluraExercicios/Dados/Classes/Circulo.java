@@ -1,4 +1,4 @@
-package AluraExercicios.Classes;
+package AluraExercicios.Dados.Classes;
 
 public class Circulo implements Forma{
     double raio;

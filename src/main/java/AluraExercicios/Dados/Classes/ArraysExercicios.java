@@ -1,4 +1,4 @@
-package AluraExercicios.Classes;
+package AluraExercicios.Dados.Classes;
 
 public class ArraysExercicios {
     public static void arrayCompleto(String[] str){

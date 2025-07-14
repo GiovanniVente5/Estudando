@@ -1,10 +1,9 @@
-package AluraExercicios;
+package AluraExercicios.Dados;
 
-import AluraExercicios.Classes.*;
+import AluraExercicios.Dados.Classes.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Executavel {
